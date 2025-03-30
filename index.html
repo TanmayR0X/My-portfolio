@@ -1,186 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/62916184bd.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>My portfolio</title>
-  </head>
-  <body>
-    <!-- Header Start -->
-    <header>
-      <div class="user">
-        <img src="assets/Photo.webp" alt="" draggable="false"/>
-        <!-- <img src="assets/My image.jpg" alt="" /> -->
-        <h3 class="name">Tanmay Rajput</h3>
-        <p class="post">Front End Developer</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/62916184bd.js" crossorigin="anonymous"></script>
+  <title>My portfolio</title>
+</head>
+
+<body>
+  <!-- Header Start -->
+  <header>
+    <div class="user">
+      <img src="assets/Photo.webp" alt="" draggable="false" />
+      <!-- <img src="assets/My image.jpg" alt="" /> -->
+      <h3 class="name">Tanmay Rajput</h3>
+      <p class="post">Front End Developer</p>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+       
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Header End -->
+  <div id="menu" class="fas fa-bars"></div>
+
+  <!-- Home section Start -->
+  <section class="home" id="home">
+    <h3>Hello !!</h3>
+    <h1>I'm <span>Tanmay Rajput</span></h1>
+    <p>
+      I'm a BTech Computer Science student with a passion for front-end web development. I love creating responsive UIs
+      and dynamic web applications, focusing on delivering seamless user experiences across devices.
+    </p>
+    <div>
+      <a href="#about"><button class="btn">About Me <i class="fa-solid fa-user"></i></button></a>
+    </div>
+  </section>
+
+  <!-- Home section End -->
+
+  <!-- about section Start -->
+  <section class="about" id="about">
+    <h1 class="heading"><span>About</span> Me</h1>
+    <div class="data">
+      <div class="container">
+        <h1>I'm a <span class="auto-type"></span></h1>
       </div>
-      <nav class="navbar">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Header End -->
-    <div id="menu" class="fas fa-bars"></div>
+      <div class="info">
 
-    <!-- Home section Start -->
-    <section class="home" id="home">
-      <h3>Hello !!</h3>
-      <h1>I'm <span>Tanmay Rajput</span></h1>
-      <p>
-        I'm a BTech Computer Science student with a passion for front-end web development. I love creating responsive UIs and dynamic web applications, focusing on delivering seamless user experiences across devices.
-      </p>
-      <div>
-        <a href="#about"
-          ><button class="btn">About Me <i class="fa-solid fa-user"></i></button
-        ></a>
+        <h2> Hi, I'm Tanmay, a Front-End Developer passionate about creating intuitive and responsive web applications.
+          I specialize in HTML, CSS, and JavaScript, focusing on building seamless and user-friendly interfaces.</h2>
+        <h2>Along with front-end development, I have experience with Java, Data Structures & Algorithms (DSA), and SQL,
+          with certifications validating my skills. My understanding of DSA enhances my problem-solving approach and
+          helps me write efficient and scalable code. I enjoy learning new technologies and continuously improving my
+          skills to develop high-quality solutions. </h2>
+        </h2>
+        <h2>I am eager to apply my skills in real-world projects. Currently, I am seeking internship opportunities where
+          I can continue to grow, contribute to innovative projects, and gain valuable industry experience.</h2>
+        <a href="#"><button class="btn"><i class="fas fa-download"></i> Resume </button></a>
+
+
+
       </div>
-    </section>
 
-    <!-- Home section End -->
 
-    <!-- about section Start -->
-    <section class="about" id="about">
-      <h1 class="heading"><span>About</span> Me</h1>
-      <div class="data">
-        <div class="container"><h1>I'm a <span class="auto-type"></span></h1></div>
-        <div class="info">
+    </div>
 
-          <h2> Hi, I'm Tanmay, a Front-End Developer passionate about creating intuitive and responsive web applications. I specialize in HTML, CSS, and JavaScript, focusing on building seamless and user-friendly interfaces.</h2>
-            <h2>Along with front-end development, I have experience with Java, Data Structures & Algorithms (DSA), and SQL, with certifications validating my skills. My understanding of DSA enhances my problem-solving approach and helps me write efficient and scalable code. I enjoy learning new technologies and continuously improving my skills to develop high-quality solutions. </h2>
-           </h2>
-           <h2>I am eager to apply my skills in real-world projects. Currently, I am seeking internship opportunities where I can continue to grow, contribute to innovative projects, and gain valuable industry experience.</h2>
-          <a href="#"><button class="btn"><i class="fas fa-download"></i> Resume </button></a>
-          
-        
-           
-         </div>
+  </section>
+  <!-- about section End -->
 
-          
-      </div>
-     
-    </section>
-    <!-- about section End -->
- 
-    <!-- Skills section start -->
-     <section class="skills" id="skills"  >
-      <h1 class="heading"> my <span>Skills</span> </h1>
-       <div class="box-container">
-        <div class="box">
+  <!-- Skills section start -->
+  <section class="skills" id="skills">
+    <h1 class="heading"> my <span>Skills</span> </h1>
+    <div class="box-container">
+      <div class="box">
         <i class="fa-brands fa-html5"></i>
-          <h3>HTML</h3>
-          <p>Experienced in creating structured and semantic HTML5 documents.</p>
-        </div>
-        <div class="box">
-          <i class="fa-brands fa-css3"></i>
-          <h3>CSS</h3>
-          <p>Proficient in designing responsive and visually appealing layouts with CSS3.</p>
-        </div>
-        <div class="box">
-          <i class="fas fa-paint-brush"></i>
-          <h3>Tailwind CSS</h3>
-          <p>I have a strong understanding of Tailwind CSS Framework.</p>
-        </div>
-        <div class="box">
-          <i class="fa-brands fa-js"></i>
-          <h3>JavaScript</h3>
-          <p>Skilled in writing clean and efficient JavaScript code for dynamic web applications.</p>
-        </div>
-        <div class="box">
-          <i class="fas fa-database"></i>
-          <h3>SQL</h3>
-          <p>Knowledgeable in database management and SQL queries.</p>
-        </div>
-        <div class="box">
-          <i class="fa-brands fa-java"></i>
-          <h3>Java</h3>
-          <p>I have a good understanding of Java programming.</p>
-        </div>
-        <div class="box">
-          <i class="fas fa-cogs"></i>
-          <h3>DSA</h3>
-          <p>I possess foundational knowledge of Data Structures and Algorithms (DSA)</p>
-        </div>
-       </div>
-     </section>
+        <h3>HTML</h3>
+        <p>Experienced in creating structured and semantic HTML5 documents.</p>
+      </div>
+      <div class="box">
+        <i class="fa-brands fa-css3"></i>
+        <h3>CSS</h3>
+        <p>Proficient in designing responsive and visually appealing layouts with CSS3.</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-paint-brush"></i>
+        <h3>Tailwind CSS</h3>
+        <p>I have a strong understanding of Tailwind CSS Framework.</p>
+      </div>
+      <div class="box">
+        <i class="fa-brands fa-js"></i>
+        <h3>JavaScript</h3>
+        <p>Skilled in writing clean and efficient JavaScript code for dynamic web applications.</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-database"></i>
+        <h3>SQL</h3>
+        <p>Knowledgeable in database management and SQL queries.</p>
+      </div>
+      <div class="box">
+        <i class="fa-brands fa-java"></i>
+        <h3>Java</h3>
+        <p>I have a good understanding of Java programming.</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-cogs"></i>
+        <h3>DSA</h3>
+        <p>I possess foundational knowledge of Data Structures and Algorithms (DSA)</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Skills section end -->
-   
-    <!-- Project section Start -->
-     <section class="projects" id="projects">
-    
-        <h1 class="heading">My <span>Projects</span></h1>
-        <div class="project-container">
-          <div class="project-box">
-            <img src="assets/UI Design 3D Illustration.jpg" draggable="false" alt="Project 1" />
-            <h3>Personal Portfolio</h3>
-            <p>This is my personal portfolio website, featuring my work in web development and UI design.</p>
-            <a href="https://github.com/TanmayR0X/My-portfolio" class="btn">Github</a>
-          </div>
-          <div class="project-box">
-            <img src="assets/cs2.gif" draggable="false" alt="">
-            <h3 id="heading3">More projects Coming Soon</h3>
-            <p id="p">Currently building awesome projects. Check back soon!</p>
-            
-          </div>
-        </div>
-        
-     </section>
-    <!-- Project section End -->
-  
-    <!-- Contact section Start -->
-    <section class="contact" id="contact">
-      <h1 class="heading">  <span>Contact</span> me </h1>
-      <div class="row">
+  <!-- Skills section end -->
 
-       <div class="content">
+  <!-- Project section Start -->
+  <section class="projects" id="projects">
+
+    <h1 class="heading">My <span>Projects</span></h1>
+    <div class="project-container">
+      <div class="project-box">
+        <img src="assets/UI Design 3D Illustration.jpg" draggable="false" alt="Project 1" />
+        <h3>Personal Portfolio</h3>
+        <p>This is my personal portfolio website, featuring my work in web development and UI design.</p>
+        <a href="https://github.com/TanmayR0X/My-portfolio" class="btn">Github</a>
+      </div>
+
+      <div class="project-box">
+        <img src="assets/linkedin.webp" style="background-color: rgb(29, 124, 248)
+        ;" draggable="false" alt="Project 1" />
+        <h3>Linkedin Ui Clone</h3>
+        <p>A LinkedIn UI clone using HTML, CSS, and JavaScript can include a responsive layout, user profiles, and a dynamic feed with interactive elements.</p>
+        <a href=" https://tanmayr0x.github.io/Linkedin-uiClone/" class="btn">Live Demo</a>
+      </div>
+
+      <div class="project-box">
+        <img src="assets/cs2.gif" draggable="false" alt="">
+        <h3 id="heading3">More projects Coming Soon</h3>
+        <p id="p">Currently building awesome projects. Check back soon!</p>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- Project section End -->
+
+  <!-- Contact section Start -->
+  <section class="contact" id="contact">
+    <h1 class="heading"> <span>Contact</span> me </h1>
+    <div class="row">
+
+      <div class="content">
         <h3 class="title">Get in Touch</h3>
         <div class="info">
-          <h3><a href="https://github.com/TanmayR0X" target = "_blank"><i class="fa-brands fa-github"></i> Github</a> </h3>
-          <h3><a href="https://www.linkedin.com/in/tanmay-rajput1/" target = "_blank"><i class="fa-brands fa-linkedin" ></i> linkedin</a> </h3>
-          <h3><a href="" target = "_blank"><i class="fa-brands fa-x-twitter" ></i> Twitter</a> </h3>
-          <h3><a href="mailto:tanmayrajput3305@gmail.com" target = "_blank"><i class="fa-regular fa-envelope"></i> Email Me</a> </h3>
+          <h3><a href="https://github.com/TanmayR0X" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+          </h3>
+          <h3><a href="https://www.linkedin.com/in/tanmay-rajput1/" target="_blank"><i
+                class="fa-brands fa-linkedin"></i> linkedin</a> </h3>
+          <h3><a href="" target="_blank"><i class="fa-brands fa-x-twitter"></i> Twitter</a> </h3>
+          <h3><a href="mailto:tanmayrajput3305@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i> Email
+              Me</a> </h3>
         </div>
-       </div>
+      </div>
 
-       <form action="">
+      <form action="">
         <input type="text" placeholder="name" class="box">
         <input type="text" placeholder="email" class="box">
         <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
         <button type="submit" class=" send ">send <i class="fa-regular fa-paper-plane"></i></button>
-       </form>
- 
-      </div>
-    </section>
-    <!-- Contact section End -->
-    <!-- Footer This is also made with ❤️ -->
-    <footer>
-      <div class="madeby">
-        Made with ❤️ by Tanmay Rajput
-      </div>
-    </footer>
-    <!-- Footer End -->
-    <!-- Scroll top -->
-    <a href="#home" class="fa-solid fa-circle-chevron-up top" id="scroll-top"></a>
+      </form>
 
-  </body>
-  <script src="script.js"></script>
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  <script>
-    var typed = new Typed(".auto-type" , {
-      strings : ['Coder ', 'Developer'],
-      typeSpeed : 120,
-      backSpeed : 120,
-      loop : true
-    })
-  </script>
+    </div>
+  </section>
+  <!-- Contact section End -->
+  <!-- Footer This is also made with ❤️ -->
+  <footer>
+    <div class="madeby">
+      Made with ❤️ by Tanmay Rajput
+    </div>
+  </footer>
+  <!-- Footer End -->
+  <!-- Scroll top -->
+  <a href="#home" class="fa-solid fa-circle-chevron-up top" id="scroll-top"></a>
+
+</body>
+<script src="script.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed(".auto-type", {
+    strings: ['Coder ', 'Developer' , "tanmay"],
+    typeSpeed: 120,
+    backSpeed: 120,
+    loop: true
+  })
+</script>
+
 </html>

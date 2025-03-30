@@ -3,13 +3,13 @@ const menuItems = document.querySelectorAll('ul li a');
 const sections = document.querySelectorAll('section');
 const backToTop = document.querySelector('.top');
 
-menu.addEventListener('click', function() {
+menu.addEventListener('click', function () {
     menu.classList.toggle('fa-times');
     document.querySelector('header').classList.toggle('toggle');
 });
 
 menuItems.forEach(item => {
-    item.addEventListener('click', function() {
+    item.addEventListener('click', function () {
         menuItems.forEach(i => i.classList.remove('active'));
         // Add 'active' class to the clicked menu item
         item.classList.add('active');
@@ -18,9 +18,10 @@ menuItems.forEach(item => {
     });
 });
 
-// Function to check which section is in view
+//   Function to check which section is in view
 function checkSectionInView() {
-    let currentSection = null;
+    let
+        currentSection = null;
 
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
@@ -53,7 +54,7 @@ function toggleBackToTop() {
 
 
 // Add scroll event listener
-window.addEventListener('scroll', ()=>{
+window.addEventListener('scroll', () => {
     checkSectionInView();
     toggleBackToTop();
 });
