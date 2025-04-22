@@ -182,6 +182,7 @@ section {
   gap: 2rem;
   padding: 2rem 4rem;
   box-shadow: 0 0 10px white;
+  border-radius: 10px;
 }
 
 .about .data .container {
